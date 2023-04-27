@@ -1,0 +1,18 @@
+.btn {
+    display: flex;
+    align-items: center;
+  text-align: left;
+  padding: 18px 24px;
+  .btn-icon{
+    margin-right: 10px;
+  }
+  &:hover {
+    background:rgba(159, 162, 180, 0.08);
+    span{
+        color: #f8f9ff;
+    }
+    .btn-icon:hover{
+        fill: #1f3eee;
+    }
+  }
+}
